@@ -33,7 +33,7 @@ function index({ heros }) {
                     <Link href={`/${hero._id}`} passHref>
                     <MDBBtn>View Hero</MDBBtn>
                     </Link>
-                    <Link href='/' passHref>
+                    <Link href={`/${hero._id}/edit`} passHref>
                     <MDBBtn className="mx-2">Edit Hero</MDBBtn>
                     </Link>
                     
